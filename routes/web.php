@@ -15,4 +15,5 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'ConverterController@index');
+Route::get('/', 'ConverterController@show_landing');
+Route::post('/create', 'ConverterController@create');
